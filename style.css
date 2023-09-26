@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+body {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  height: 100px;
+  width: 100vw;
+}
+/* NAVBAR */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+}
+
+.UL {
+  list-style: none;
+  display: flex;
+  gap: 6rem;
+}
+
+.LI {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-left: 2%;
+  letter-spacing: 0.6rem;
+}
+
+.A {
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  position: relative;
+  text-decoration: none;
+}
+.A:hover {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.btn {
+  border-radius: 20%;
+  font-size: 1rem;
+  border: none;
+  padding: 1rem 1rem;
+  margin-right: 5rem;
+}
+
+/* CONTAINER */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+}
+
+article {
+  color: #fff;
+  justify-self: stretch;
+  align-self: center;
+  margin-left: 1rem;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #f40505;
+  border-bottom: 5px solid #f40505;
+  padding: 50px 0;
+  width: 300px;
+  margin-right: 1rem;
+  justify-self: end;
+}
+
+h4 {
+  position: relative;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  top: 1px;
+}
+.roligt {
+  list-style: none;
+}
+.roligt-post {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  padding: 1rem;
+}
